@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Screen</title>
+    <link rel="stylesheet" href="../Css/index.css"/>
+
+</head>
+<body>
+<div>
+
+    <div style="width:400px">
+        <h1>Order in progress...</h1>
+        <table id="product-table">
+            <!-- Inventory displayed should change based on the store chosen-->
+            <tr>
+                <td> Store:</td>
+                <td><select name="stores" id="stores" style="border:1px solid black; background-color: hsl(51, 100%, 58%); width: 252px;">
+                    <option value="Chris' Tree Store"> Chris' Tree Store</option>
+                    <option value="Chicago Tree Store">Chicago Tree Store</option>
+                    <option value="New York Tree Store">New York Tree Store</option>
+                    <option value="Detroit Tree Store">Detroit Tree Store</option>
+                </select>
+            </tr>
+            <!-- First Name and Last Name sections are place-holders -->
+            <tr>
+                <td> First Name</td>
+                <td><p style="border:1px solid black; background-color: hsl(51, 100%, 58%); width: 250px;">Customer's First name</p></td>
+            </tr>
+            <tr>
+                <td> Last Name </td>
+                <td><p style="border:1px solid black; background-color: hsl(51, 100%, 58%); width: 250px;">Customer's Last name</p></td>
+            </tr>
+            <!-- A function displays choices from a database with a list of the quantity, based on the store-->
+        </table>        
+    </div>
+
+    <!-- Display the order details as they are chosen -->
+    <div style="border: 5px solid black; width: auto;">
+        <table>
+            <tr>
+            <h4>ORDER:</h4>
+            </tr>
+            <tr><p>--------------------------------</p></tr>
+            <tr>
+                <p>From: Chicago Tree Store</p>
+            </tr>
+            <tr>
+                <p>Customer Name: John Smith</p>
+                <p>Address: 111 Main St Somewhere City, Kansas 12345</p>
+            </tr>
+            </br>
+            <tr>
+                <label class="treeOrder">Orange Tree</label>
+                <p>$35</p>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script src="../JS/index.js"></script>
+</body>
+</html>

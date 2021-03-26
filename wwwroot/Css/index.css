@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(#ff6600, hsl(51, 100%, 58%), #0abb54) ;
+    align-self: center;
+    border: 5px solid black;
+}
+div {
+    text-align: center;
+}
+input{
+    background-color: hsl(51, 100%, 58%);
+    align-self: center;
+    width: 250px;
+}
+button{
+    background-color:hsl(51, 100%, 58%);
+    
+}
+table {
+    text-align: center;
+}
+tr {
+    text-align: center;
+}
+input.userInfo{
+    align-self: auto;
+}
+label.login {
+    width: 250px;
+    display:inline-block;
+    text-align: right;
+}
+label.customerInfo {
+    width: 250px;
+    display:inline-block;
+    text-align: right;    
+}
+label.treeOrder {
+    display: inline;
+    text-align: left;
+}
+.historyTable {
+    border:1px solid black;
+}

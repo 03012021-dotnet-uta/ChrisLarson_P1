@@ -1,0 +1,31 @@
+h1{
+    align-content: center;
+    background-color: lightgreen;
+}
+body {
+    border: 5px solid black;
+}
+
+div {
+    align-self: center;
+    border:5px dotted black;
+    background-color: mediumseagreen;
+}
+ul {
+    align-content: center;
+}
+li {
+    align-content: center;
+    border:4px dashed black;
+    border-collapse: separate;
+    margin: 5px;
+    padding-left: -4px;
+    background-color:lightyellow;
+    background-size: contain;
+}
+input, button{
+    text-align: right;
+}
+.noDisplay {
+    display:none !important;
+}
