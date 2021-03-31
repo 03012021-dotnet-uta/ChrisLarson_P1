@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\clars\\Revature\\projects\\TreeShop\\TreeShop.csproj": {}
+    "C:\\Users\\clars\\Revature\\projects\\TreeShop\\ChrisLarson_P1\\TreeShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\clars\\Revature\\projects\\TreeShop\\TreeShop.csproj": {
+    "C:\\Users\\clars\\Revature\\projects\\TreeShop\\ChrisLarson_P1\\TreeShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\clars\\Revature\\projects\\TreeShop\\TreeShop.csproj",
+        "projectUniqueName": "C:\\Users\\clars\\Revature\\projects\\TreeShop\\ChrisLarson_P1\\TreeShop.csproj",
         "projectName": "TreeShop",
-        "projectPath": "C:\\Users\\clars\\Revature\\projects\\TreeShop\\TreeShop.csproj",
+        "projectPath": "C:\\Users\\clars\\Revature\\projects\\TreeShop\\ChrisLarson_P1\\TreeShop.csproj",
         "packagesPath": "C:\\Users\\clars\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\clars\\Revature\\projects\\TreeShop\\obj\\",
+        "outputPath": "C:\\Users\\clars\\Revature\\projects\\TreeShop\\ChrisLarson_P1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

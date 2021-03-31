@@ -8,7 +8,8 @@ function CustomGreeter(){
 }
 let thetable = document.querySelector("historyTable");
 
-function AddItem(){
+
+function AddItem(store, itemname, cost){
     thetable.innerHTML += `<tr>Store: ${store}</tr>`
     thetable.innerHTML += `<tr><td>${itemname} </td> <td>${cost}</td></tr>`
 }

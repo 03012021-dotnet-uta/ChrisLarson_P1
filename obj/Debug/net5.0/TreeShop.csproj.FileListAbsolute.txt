@@ -27,3 +27,13 @@ C:\Users\clars\Revature\projects\TreeShop\obj\Debug\net5.0\TreeShop.dll
 C:\Users\clars\Revature\projects\TreeShop\obj\Debug\net5.0\ref\TreeShop.dll
 C:\Users\clars\Revature\projects\TreeShop\obj\Debug\net5.0\TreeShop.pdb
 C:\Users\clars\Revature\projects\TreeShop\obj\Debug\net5.0\TreeShop.genruntimeconfig.cache
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.csprojAssemblyReference.cache
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.AssemblyInfoInputs.cache
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.AssemblyInfo.cs
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.csproj.CoreCompileInputs.cache
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.dll
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\ref\TreeShop.dll
+C:\Users\clars\Revature\projects\TreeShop\ChrisLarson_P1\obj\Debug\net5.0\TreeShop.pdb
