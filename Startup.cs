@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Rewrite;
-using Microsoft.Extensions.nugetConfigure;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -15,7 +15,7 @@ using Microsoft.OpenApi.Models;
 using ChrisLarson_P1.Repository;
 using ChrisLarson_P1.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+
 using ChrisLarson_p1.Logic;
 
 namespace ChrisLarson_P1.TreeShop
@@ -33,11 +33,8 @@ namespace ChrisLarson_P1.TreeShop
         public void ConfigureServices(IServiceCollection services)
         {
             string connectionString = Configuration.GetConnectionString("TreeShopDB"); //will have to name it that
-
-            services.AddDbContext<TreeShopContext>(options =>
-            {
-                options.UseSqlServer(connectionString);
-            });
+            
+            services.AddDbContext<TreeShopContext>(options => options.UseSqlServer(connectionString));
             services.AddScoped<UserMethods>();
             //Registers the classes with the dependency injection system
             services.AddScoped<TreeShopRepo>();

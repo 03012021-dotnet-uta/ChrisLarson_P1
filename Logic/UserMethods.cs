@@ -38,8 +38,8 @@ namespace ChrisLarson_p1.Logic
 
                 newCustomer.Fname = rawCustomer.Fname;
                 newCustomer.Lname = rawCustomer.Lname;
-                newCustomer.UserName = rawCustomer.Username;
-                Customer registerdCustomer = _repolayer.Register(newCustomer);
+                newCustomer.Username = rawCustomer.Username;
+                Customer registeredCustomer = _repolayer.Register(newCustomer);
                 return registeredCustomer;
             }
         }
@@ -51,7 +51,7 @@ namespace ChrisLarson_p1.Logic
                 return null;
             }else{
                 Customer foundCustomer = _repolayer.GetCustomerByUsername(username);
-                byte[] hash = mapper.HashTheUsername(password, foundCustomer.PasswordSalt);
+                byte[] hash = mapper.HashThePassword(password, foundCustomer.PasswordSalt);
 
                 if (CompareTwoHashes(foundCustomer.PasswordHash, hash))
                 {

@@ -11,7 +11,7 @@ namespace ChrisLarson_P1.Models
         public Guid CustomerId { get; set; } = Guid.NewGuid();
         public string Fname { get; set; }
         public string Lname { get; set; }
-        public string UserName { get; set; }
+        public string Username { get; set; }
         public byte[] PasswordHash { get; set; }
         public byte[] PasswordSalt { get; set; }
         public DateTime memberSince { get; set; } = DateTime.Now;

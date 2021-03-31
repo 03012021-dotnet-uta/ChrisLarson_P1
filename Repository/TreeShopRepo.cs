@@ -37,7 +37,18 @@ namespace ChrisLarson_P1.Repository
             return _context.Customers.FirstOrDefault(c => c.Username == username);
         }
 
-        
+        public bool UserExists(string username)
+        {
+            //if the username is in the DB, true, else false
+            if(_context.Customers.Where(c => c.Username == username).FirstOrDefault() != null)
+            { 
+                return true; 
+            }
+            else
+            { 
+                return false; 
+            }
+        } 
 
     }
 }
